@@ -22,7 +22,7 @@ const Order = () => {
             cartProduct,
             date: new Date()
         };
-        fetch('http://localhost:5000/order', {
+        fetch('https://quiet-springs-25301.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

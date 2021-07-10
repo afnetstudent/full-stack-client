@@ -6,7 +6,7 @@ const Myorders = () => {
     const [clientorders, setClientOrders] = useState([])
     const [logginUser, setLoggingUser] = useContext(UserContex)
     useEffect(()=>{
-        fetch('http://localhost:5000/myorders?email'+logginUser.email)
+        fetch('https://quiet-springs-25301.herokuapp.com/myorders?email'+logginUser.email)
         .then(res => res.json())
         .then(data => setClientOrders(data))
         

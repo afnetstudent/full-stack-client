@@ -15,7 +15,7 @@ const Admin = () => {
       imageUrl:imageUrl
     };
     console.log(productData)
-    const url = `http://localhost:5000/addProduct`;
+    const url = `https://quiet-springs-25301.herokuapp.com/addProduct`;
 
     fetch(url, {
       method: 'POST',

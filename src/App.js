@@ -49,6 +49,7 @@ export const UserContex = createContext()
         </ul>
 
         <Switch>
+        
           <Route path="/home">
             <Home />
           </Route>
@@ -66,6 +67,9 @@ export const UserContex = createContext()
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route exact path="/">
+            <Home />
           </Route>
         </Switch>
       </div>
