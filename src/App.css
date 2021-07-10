@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#33FF80;
+}
+li {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
